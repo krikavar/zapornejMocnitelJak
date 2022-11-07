@@ -19,23 +19,28 @@ namespace zapornejMocnitelJak
 
         private void button1_Click(object sender, EventArgs e)
         {
-            double cislo = int.Parse(textBox1.Text);
-            int mocnitel = int.Parse(textBox2.Text);
-            double vysledek = 1;
+            try
+            {
+                double cislo = int.Parse(textBox1.Text);
+                int mocnitel = int.Parse(textBox2.Text);
+                double vysledek = 1;
 
-            if(mocnitel < 0)
-            {
-                cislo = 1 / cislo;
-                mocnitel *= -1;
-            }
-            
-            for(int i = 0; i < mocnitel; i++)
-            {
-                   vysledek *= cislo;
-            }
+                if (mocnitel < 0)
+                {
+                    cislo = 1 / cislo;
+                    mocnitel *= -1;
+                }
+
+                for (int i = 0; i < mocnitel; i++)
+                {
+                    vysledek *= cislo;
+                }
                 MessageBox.Show(vysledek.ToString());
-            
-            
+
+            }
+            catch (FormatException){MessageBox.Show("Zadej cislo"); textBox2.Clear(); textBox1.Clear();}
+            catch (OverflowException){MessageBox.Show("Moc velke cislo"); textBox2.Clear(); textBox1.Clear();}
+
         }
     }
 }

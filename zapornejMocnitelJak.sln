@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31624.102
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "zapornejMocnitelJak", "zapornejMocnitelJak\zapornejMocnitelJak.csproj", "{0DF8C18D-4FAE-49DB-987D-53EE23598672}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DF8C18D-4FAE-49DB-987D-53EE23598672}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DF8C18D-4FAE-49DB-987D-53EE23598672}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DF8C18D-4FAE-49DB-987D-53EE23598672}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DF8C18D-4FAE-49DB-987D-53EE23598672}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {23A7DBB2-7A64-42DA-AF31-512CCD9C560F}
+	EndGlobalSection
+EndGlobal
